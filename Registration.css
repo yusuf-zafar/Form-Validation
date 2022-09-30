@@ -1,0 +1,83 @@
+body{
+    background-image: url("/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:30px 0px;
+    font-family: 'Ubuntu', sans-serif;
+}
+#container{
+    width: 400px;
+    text-align: center;
+    margin: auto;
+    background-color: rgba(8, 8, 8, 0.678);
+    box-shadow: 0px 0px 5px rgb(69, 65, 65);
+    padding-bottom: 10px ;
+    border-radius: 5px;
+}
+#logo{
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+p, h3 {
+    line-height: 5px;
+    color: white;
+}
+h3{
+    font-size: 1.5rem;
+}
+p{
+    font-size: 0.8rem;
+}
+.input-field{
+   width: 90%;
+   margin: 10px 15px;
+   height: 2rem;
+   border: 1px solid rgb(251, 255, 254);
+   border-radius: 5px;
+   font-size: 16px;
+   text-indent: 5px;
+}
+.input-field:focus{
+    outline: none;   
+}
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+.error{
+    color: rgb(255, 34, 5);
+    font-weight: 600;
+}
+#checkbox{
+    margin: 12px; 
+    float: left;
+    font-size: 0.9rem;
+    color: white;
+}
+#checkbox>strong>a{
+    color: rgb(24, 201, 255);
+    text-decoration: none;
+}
+.btn{
+    height: 2.2rem;
+    width: 90%;
+    margin: 5px auto; 
+    border: none;
+    color: white;
+   border-radius: 5px;
+}
+.btn:hover{
+    opacity:0.75;
+    cursor: pointer;
+}
+.btn:active{
+    opacity:0.5;
+}
+.login{
+    background-image: linear-gradient(rgb(13, 169, 174), rgb(21, 173, 127));
+}
+.google{
+    background-color: rgb(222, 51, 51);
+}
+ 

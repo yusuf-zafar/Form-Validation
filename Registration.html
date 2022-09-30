@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="Registration.css">
+ 
+</head>
+<body>
+    <div id="container">
+        <img src="logo.png" alt="logo" id="logo">
+        <h3>REGISTER</h3>
+        <p>Fill all the fields</p>
+        <form id="form-container" onsubmit="show()" >
+
+            <input id="name" class="input-field" type="text" placeholder="Full Name">
+            <span class="error" id="nameerror"></span>
+
+            <input id="age" class="input-field" type="number" placeholder="Age"><br>
+            <span class ="error" id="ageerror"></span>
+
+            <input id="city" class="input-field" type="text" placeholder="City / State"><br>
+            <span class ="error" id="cityerror"></span>
+
+            <input id="email" class="input-field" type="email" placeholder="Email"><br>
+            <span class ="error" id="emailerror"></span>
+
+            <input id="password" class="input-field" type="password" placeholder="Password"><br>
+            <span class ="error" id="passworderror"></span>
+
+            <input id="confirmpassword" class="input-field" type="password" placeholder="Confirm Password"><br>
+
+            <label id="checkbox"><input id="checkbx" type="checkbox"> I accept <strong><a href="https://www.termsfeed.com/blog/sample-terms-and-conditions-template/" target="_blank">terms and conditions</a></strong></label><br><br>
+            <p id="checkerror" class="error"></p>
+            <button class="login btn" type="submit" onclick="return validation()">CREATE ACCOUNT</button>
+            <a href="https://www.gmail.com" target="_blank"><button class="google btn" type="button">Continue with GOOGLE</button></a>
+
+        </form>
+
+    </div>
+    <script src="Registration.js"></script>
+</body>
+</html>
